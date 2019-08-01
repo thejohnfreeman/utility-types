@@ -103,7 +103,7 @@ Issues can be funded by anyone and the money will be transparently distributed t
 * [`OmitByValueExact<T, ValueType>`](#omitbyvalueexactt-valuetype)
 * [`Intersection<T, U>`](#intersectiont-u)
 * [`Diff<T, U>`](#difft-u)
-* [`Subtract<T, T1>`](#subtractt-t1)
+* [`<T, T1>`](#subtractt-t1)
 * [`Overwrite<T, U>`](#overwritet-u)
 * [`Assign<T, U>`](#assignt-u)
 
@@ -534,7 +534,7 @@ type RequiredProps = Diff<Props, DefaultProps>;
 
 ### `Subtract<T, T1>`
 
-From `T` remove properties that exist in `T1` (`T1` is a subtype of `T`)
+From `T` remove properties that exist in `T1` (`T` is a subtype of `T1`)
 
 **Usage:**
 
