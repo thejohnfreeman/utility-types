@@ -103,7 +103,7 @@ Issues can be funded by anyone and the money will be transparently distributed t
 * [`OmitByValueExact<T, ValueType>`](#omitbyvalueexactt-valuetype)
 * [`Intersection<T, U>`](#intersectiont-u)
 * [`Diff<T, U>`](#difft-u)
-* [`<T, T1>`](#subtractt-t1)
+* [`Subtract<T, T1>`](#subtractt-t1)
 * [`Overwrite<T, U>`](#overwritet-u)
 * [`Assign<T, U>`](#assignt-u)
 
